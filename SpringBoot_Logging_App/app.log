@@ -1,0 +1,22 @@
+2025-08-10T12:05:44.680+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] c.l.SpringBootLoggingAppApplication      : Starting SpringBootLoggingAppApplication using Java 21.0.6 with PID 4405 (/Users/bharatnaik/Tools_Projects/Logging/SpringBoot_Logging_App/target/classes started by bharatnaik in /Users/bharatnaik/Tools_Projects/Logging/SpringBoot_Logging_App)
+2025-08-10T12:05:44.683+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] c.l.SpringBootLoggingAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-08-10T12:05:44.753+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-10T12:05:44.753+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-10T12:05:45.637+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-10T12:05:45.654+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-10T12:05:45.655+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10T12:05:45.694+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-10T12:05:45.695+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 941 ms
+2025-08-10T12:05:46.099+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-10T12:05:46.134+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-10T12:05:46.146+05:30  INFO 4405 --- [SpringBoot_Logging_App] [restartedMain] c.l.SpringBootLoggingAppApplication      : Started SpringBootLoggingAppApplication in 1.898 seconds (process running for 3.037)
+2025-08-10T12:05:51.804+05:30  INFO 4405 --- [SpringBoot_Logging_App] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10T12:05:51.806+05:30  INFO 4405 --- [SpringBoot_Logging_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-10T12:05:51.808+05:30  INFO 4405 --- [SpringBoot_Logging_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-10T12:05:51.934+05:30  INFO 4405 --- [SpringBoot_Logging_App] [http-nio-8080-exec-2] c.logging.controller.MsgRestController   : ***** Welcome () Execution Started *****
+2025-08-10T12:05:51.934+05:30  INFO 4405 --- [SpringBoot_Logging_App] [http-nio-8080-exec-2] c.logging.controller.MsgRestController   : ***** Welcome () Execution Ended *****
+2025-08-10T12:05:58.890+05:30  INFO 4405 --- [SpringBoot_Logging_App] [http-nio-8080-exec-3] c.logging.controller.UserRestController  : ***** GetContact () - Started *****
+2025-08-10T12:05:58.894+05:30  INFO 4405 --- [SpringBoot_Logging_App] [http-nio-8080-exec-3] c.logging.controller.UserRestController  : ***** GetContact () - Ended *****
+2025-08-10T12:06:30.791+05:30  INFO 4405 --- [SpringBoot_Logging_App] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-10T12:06:30.796+05:30  INFO 4405 --- [SpringBoot_Logging_App] [RMI TCP Connection(4)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10T12:06:30.814+05:30  INFO 4405 --- [SpringBoot_Logging_App] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
